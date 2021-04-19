@@ -34,7 +34,6 @@ function App({ database }) {
         return setContent(change[0].obj.content);
       }
 
-      console.log("change", change);
       let _registers = [...registers];
 
       _registers.push({ ...change[0].obj });
