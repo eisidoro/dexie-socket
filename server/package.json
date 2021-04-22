@@ -1,0 +1,15 @@
+{
+  "name": "synck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sync-server init && sync-server start --path .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sync-server": "^2.0.0-beta.7"
+  }
+}
